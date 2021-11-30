@@ -15,7 +15,7 @@ out the appropriate line number to run.
 Install `vim-test` and this plugin:
 
 ```viml
-Plug 'janko-m/vim-test'
+Plug 'vim-test/vim-test'
 Plug 'aellispierce/vim-test-rubygems'
 ```
 
