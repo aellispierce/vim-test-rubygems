@@ -42,10 +42,9 @@ I'd also recommend making it easy to run vim-test from a key sequence:
 ```viml
 nmap <silent> <leader>t :TestNearest<CR>
 nmap <silent> <leader>f :TestFile<CR>
-nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
-nmap <silent> <leader>L :TestVisit<CR>
 ```
 ### Known Issues
 
-Thus far this is only set up for the top level rubygems tests and will not work with the bundler test suite. 
+- Thus far this is only set up for the top level rubygems tests and will not work with the bundler test suite. 
+- This enables running individual tests or files, but not the entire suite 
