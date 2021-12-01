@@ -46,3 +46,6 @@ nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>L :TestVisit<CR>
 ```
+### Known Issues
+
+Thus far this is only set up for the top level rubygems tests and will not work with the bundler test suite. 
